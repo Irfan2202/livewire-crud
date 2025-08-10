@@ -61,3 +61,94 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # livewire-crud
 
+# Laravel Livewire CRUD – Proyek Latihan
+
+Proyek ini adalah aplikasi CRUD (Create, Read, Update, Delete) sederhana menggunakan **Laravel** dan **Livewire**, dirancang untuk membantu pemula memahami konsep dasar pembuatan aplikasi web dinamis tanpa memerlukan JavaScript eksternal.
+
+---
+
+## 🔧 Fitur Utama
+- **CRUD Posts**: Menambahkan, menampilkan, mengedit, dan menghapus postingan
+- **Livewire Components**: Interaksi real-time tanpa refresh halaman
+- **Blade & Bootstrap**: Tampilan responsif dan sederhana
+- **Validasi Form**: Validasi server-side menggunakan Laravel
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- **Laravel 11** – Framework PHP untuk backend
+- **Livewire** – Framework full-stack untuk interaktivitas dinamis
+- **Blade** – Template engine Laravel
+- **Bootstrap 5** – Framework CSS untuk styling
+- **MySQL** – Database relasional
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+
+1. **Clone repository ini**:
+    ```bash
+    git clone https://github.com/Irfan2202/livewire-crud.git
+    cd livewire-crud
+    ```
+
+2. **Install dependencies menggunakan Composer**:
+    ```bash
+    composer install
+    ```
+
+3. **Salin file konfigurasi environment**:
+    ```bash
+    cp .env.example .env
+    ```
+
+4. **Generate aplikasi key**:
+    ```bash
+    php artisan key:generate
+    ```
+
+5. **Atur konfigurasi database di file `.env`**:
+    ```
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=nama_database_anda
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
+
+6. **Jalankan migrasi untuk membuat tabel di database**:
+    ```bash
+    php artisan migrate
+    ```
+
+7. **Jalankan server development Laravel**:
+    ```bash
+    php artisan serve
+    ```
+
+8. **Akses aplikasi di browser**:
+    ```
+    http://localhost:8000
+    ```
+
+---
+
+## 📸 Tampilan Aplikasi
+
+Berikut adalah tampilan aplikasi CRUD sederhana yang dikembangkan dalam proyek ini:
+
+![Tampilan List View](https://www.itsolutionstuff.com/post/laravel-livewire-crud-application-tutorialexample.html)
+![Tampilan Create View](https://www.itsolutionstuff.com/post/laravel-livewire-crud-application-tutorialexample.html)
+![Tampilan Update View](https://www.itsolutionstuff.com/post/laravel-livewire-crud-application-tutorialexample.html)
+
+---
+
+## 📌 Catatan
+- Pastikan PHP, Composer, dan MySQL telah terinstal di sistem Anda.
+- Untuk kemudahan, Anda dapat menggunakan XAMPP atau Laragon sebagai paket server lokal.
+- Proyek ini tidak menggunakan autentikasi pengguna; akses ke aplikasi tidak dibatasi.
+
+---
+
+Terima kasih telah menggunakan proyek ini. Jika Anda memiliki pertanyaan atau ingin berkontribusi, silakan buka issue di repository ini.
